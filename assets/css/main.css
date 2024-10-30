@@ -47,5 +47,15 @@ ul li {
     padding: 60px 70px;
     gap: 20px;
     margin: 40px;
+    
 
+  }
+   
+  .listElement:hover{
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 15px;
+  }
+
+  .listImage img:hover {
+    transform: scale(1.1); 
   }
