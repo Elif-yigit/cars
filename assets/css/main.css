@@ -1,5 +1,6 @@
 body{
   background-color:#02073c;
+  overflow-x: hidden;
   
 }
 
@@ -12,7 +13,7 @@ body{
 #carsList{
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   place-items: center;
   align-content: center;
   column-gap: 20px;
